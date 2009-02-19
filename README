@@ -1,0 +1,6 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=2546
+
+This is the syntax file for RePy - https://seattle.cs.washington.edu/wiki/RepyLibrary
+
+It needs the python.vim from Dmitry Vasiliev found at http://www.vim.org/scripts/script.php?script_id=790
+
