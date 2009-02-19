@@ -3,10 +3,13 @@
 " Maintainer: João Moreno <mail@joaomoreno.com>
 " Last Change: 19 Feb 2009
 " Filenames: *.repy
-" Version: 1.0
+" Version: 1.1
 "
 " Based on python.vim by Dmitry Vasiliev <dima@hlabs.spb.ru>
 " and on https://seattle.cs.washington.edu/wiki/PythonVsRepy
+"
+" Thanks:
+" Seattle Project and Community: https://seattle.cs.washington.edu/
 
 if version < 600
   syntax clear
@@ -59,7 +62,8 @@ syn keyword repyForbidden complex delattr dir enumerate
 syn keyword repyForbidden eval execfile globals hash help
 syn keyword repyForbidden id input iter locals next property
 syn keyword repyForbidden raw_input reload reversed sorted
-syn keyword repyForbidden staticmethod super unichr unicode vars __import__
+syn keyword repyForbidden staticmethod super unichr unicode vars
+syn keyword repyForbidden __import__ import
 
 
 if version >= 508 || !exists("did_python_syn_inits")
